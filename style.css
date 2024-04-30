@@ -1,4 +1,24 @@
-.pop{
-    font-weight: bolder;
-    font-size: x-large;
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@600&display=swap');
+
+.sora-re{
+  font-family: "Sora", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.sora-semi{
+  font-family: "Sora", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+.box{
+  margin: 15rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.img {
+  max-width: 70vh;
 }
